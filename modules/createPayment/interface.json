@@ -1,0 +1,15 @@
+[
+  { "name": "id", "type": "text", "label": "Payment ID" },
+  { "name": "address", "type": "text", "label": "Watch Address" },
+  { "name": "amount", "type": "text", "label": "Amount" },
+  { "name": "original_amount", "type": "text", "label": "Original Amount" },
+  { "name": "chain", "type": "text", "label": "Blockchain" },
+  { "name": "token", "type": "text", "label": "Token" },
+  { "name": "status", "type": "text", "label": "Status" },
+  { "name": "expires_at", "type": "date", "label": "Expires At" },
+  { "name": "external_order_id", "type": "text", "label": "External Order ID" },
+  { "name": "qr_code", "type": "text", "label": "QR Code (Base64)" },
+  { "name": "notice", "type": "text", "label": "Notice" },
+  { "name": "requires_txid", "type": "boolean", "label": "Requires TX ID" },
+  { "name": "confirm_endpoint", "type": "text", "label": "Confirm Endpoint" }
+]

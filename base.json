@@ -1,0 +1,15 @@
+{
+  "baseUrl": "{{ifempty(connection.apiUrl, 'https://api.payzcore.com')}}/api/v1",
+  "headers": {
+    "x-api-key": "{{connection.apiKey}}",
+    "Content-Type": "application/json"
+  },
+  "log": {
+    "sanitize": ["request.headers.x-api-key"]
+  },
+  "response": {
+    "error": {
+      "message": "{{body.error}}"
+    }
+  }
+}

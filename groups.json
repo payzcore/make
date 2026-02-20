@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Payments",
+    "label": "Payments",
+    "modules": ["watchNewPayments", "createPayment", "confirmPayment", "getPayment", "listPayments"],
+    "webhooks": ["payzcoreWebhook"]
+  }
+]

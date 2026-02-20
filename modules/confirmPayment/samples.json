@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "status": "confirming",
+  "verified": true,
+  "amount_received": "50.00",
+  "message": "Transaction verified, payment is confirming"
+}

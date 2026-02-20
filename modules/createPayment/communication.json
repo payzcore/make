@@ -1,0 +1,17 @@
+{
+  "url": "/payments",
+  "method": "POST",
+  "body": {
+    "amount": "{{parameters.amount}}",
+    "chain": "{{parameters.chain}}",
+    "token": "{{ifempty(parameters.token, 'USDT')}}",
+    "external_ref": "{{parameters.external_ref}}",
+    "external_order_id": "{{ifempty(parameters.external_order_id, undefined)}}",
+    "expires_in": "{{ifempty(parameters.expires_in, undefined)}}",
+    "address": "{{ifempty(parameters.address, undefined)}}",
+    "metadata": "{{ifempty(parameters.metadata, undefined)}}"
+  },
+  "response": {
+    "output": "{{body.payment}}"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  { "name": "event", "type": "text", "label": "Event Type" },
+  { "name": "payment_id", "type": "text", "label": "Payment ID" },
+  { "name": "external_ref", "type": "text", "label": "External Reference" },
+  { "name": "external_order_id", "type": "text", "label": "External Order ID" },
+  { "name": "chain", "type": "text", "label": "Blockchain" },
+  { "name": "token", "type": "text", "label": "Token" },
+  { "name": "address", "type": "text", "label": "Address" },
+  { "name": "expected_amount", "type": "text", "label": "Expected Amount" },
+  { "name": "paid_amount", "type": "text", "label": "Paid Amount" },
+  { "name": "tx_hash", "type": "text", "label": "Transaction Hash" },
+  { "name": "status", "type": "text", "label": "Status" },
+  { "name": "paid_at", "type": "date", "label": "Paid At" },
+  { "name": "metadata", "type": "collection", "label": "Metadata" },
+  { "name": "timestamp", "type": "date", "label": "Timestamp" }
+]

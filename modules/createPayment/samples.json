@@ -1,0 +1,15 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "address": "TXyz...abc",
+  "amount": "50.00",
+  "original_amount": "50.00",
+  "chain": "TRC20",
+  "token": "USDT",
+  "status": "pending",
+  "expires_at": "2026-02-16T12:00:00.000Z",
+  "external_order_id": "ORD-456",
+  "qr_code": "data:image/png;base64,...",
+  "notice": "Static wallet: submit tx_hash via confirm endpoint after payment",
+  "requires_txid": true,
+  "confirm_endpoint": "/api/v1/payments/550e8400-e29b-41d4-a716-446655440000/confirm"
+}

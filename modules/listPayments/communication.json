@@ -1,0 +1,12 @@
+{
+  "url": "/payments",
+  "method": "GET",
+  "qs": {
+    "status": "{{ifempty(parameters.status, '')}}",
+    "limit": "{{ifempty(parameters.limit, '50')}}"
+  },
+  "response": {
+    "output": "{{body.payments}}",
+    "iterate": "{{body.payments}}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "event": "payment.completed",
+  "payment_id": "550e8400-e29b-41d4-a716-446655440000",
+  "external_ref": "user-123",
+  "external_order_id": "ORD-456",
+  "chain": "TRC20",
+  "token": "USDT",
+  "address": "TXyz...abc",
+  "expected_amount": "50.00",
+  "paid_amount": "50.00",
+  "tx_hash": "abc123def456...",
+  "status": "paid",
+  "paid_at": "2026-02-16T11:30:00.000Z",
+  "metadata": { "type": "topup" },
+  "timestamp": "2026-02-16T11:30:05.000Z"
+}

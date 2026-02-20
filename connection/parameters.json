@@ -1,0 +1,17 @@
+[
+  {
+    "name": "apiKey",
+    "type": "text",
+    "label": "API Key",
+    "required": true,
+    "help": "Your PayzCore project API key (pk_live_...)"
+  },
+  {
+    "name": "apiUrl",
+    "type": "text",
+    "label": "API URL",
+    "required": false,
+    "default": "https://api.payzcore.com",
+    "help": "PayzCore API base URL. Change only for self-hosted instances."
+  }
+]

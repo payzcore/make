@@ -1,0 +1,22 @@
+{
+  "chainOptions": [
+    { "label": "TRC20 (Tron)", "value": "TRC20" },
+    { "label": "BEP20 (BSC)", "value": "BEP20" },
+    { "label": "ERC20 (Ethereum)", "value": "ERC20" },
+    { "label": "Polygon", "value": "POLYGON" },
+    { "label": "Arbitrum", "value": "ARBITRUM" }
+  ],
+  "tokenOptions": [
+    { "label": "USDT", "value": "USDT" },
+    { "label": "USDC", "value": "USDC" }
+  ],
+  "statusOptions": [
+    { "label": "Pending", "value": "pending" },
+    { "label": "Confirming", "value": "confirming" },
+    { "label": "Partial", "value": "partial" },
+    { "label": "Paid", "value": "paid" },
+    { "label": "Overpaid", "value": "overpaid" },
+    { "label": "Expired", "value": "expired" },
+    { "label": "Cancelled", "value": "cancelled" }
+  ]
+}

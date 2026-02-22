@@ -1,0 +1,16 @@
+[
+  {
+    "name": "payment_id",
+    "type": "text",
+    "label": "Payment ID",
+    "required": true,
+    "help": "UUID of the payment to confirm"
+  },
+  {
+    "name": "tx_hash",
+    "type": "text",
+    "label": "Transaction Hash",
+    "required": true,
+    "help": "Blockchain transaction hash as proof of payment"
+  }
+]

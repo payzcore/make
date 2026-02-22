@@ -1,0 +1,9 @@
+[
+  {
+    "name": "webhookSecret",
+    "type": "text",
+    "label": "Webhook Secret",
+    "required": true,
+    "help": "Your PayzCore project webhook secret (whsec_...). Found in project settings."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "amount",
+    "type": "number",
+    "label": "Amount",
+    "required": true,
+    "help": "Payment amount in stablecoin"
+  },
+  {
+    "name": "chain",
+    "type": "select",
+    "label": "Blockchain",
+    "required": true,
+    "options": [
+      { "label": "TRC20 (Tron)", "value": "TRC20" },
+      { "label": "BEP20 (BSC)", "value": "BEP20" },
+      { "label": "ERC20 (Ethereum)", "value": "ERC20" },
+      { "label": "Polygon", "value": "POLYGON" },
+      { "label": "Arbitrum", "value": "ARBITRUM" }
+    ]
+  },
+  {
+    "name": "token",
+    "type": "select",
+    "label": "Token",
+    "required": false,
+    "default": "USDT",
+    "options": [
+      { "label": "USDT", "value": "USDT" },
+      { "label": "USDC", "value": "USDC" }
+    ],
+    "help": "USDC is not available on TRC20"
+  },
+  {
+    "name": "external_ref",
+    "type": "text",
+    "label": "External Reference",
+    "required": true,
+    "help": "Your user/customer identifier"
+  },
+  {
+    "name": "external_order_id",
+    "type": "text",
+    "label": "External Order ID",
+    "required": false,
+    "help": "Your order reference (idempotency)"
+  },
+  {
+    "name": "expires_in",
+    "type": "integer",
+    "label": "Expires In (Seconds)",
+    "required": false,
+    "help": "300-86400, default 1800"
+  },
+  {
+    "name": "address",
+    "type": "text",
+    "label": "Address",
+    "required": false,
+    "help": "Static wallet address (skips HD derivation). Used for static wallet mode."
+  },
+  {
+    "name": "metadata",
+    "type": "text",
+    "label": "Metadata (JSON)",
+    "required": false,
+    "help": "Arbitrary JSON data"
+  }
+]

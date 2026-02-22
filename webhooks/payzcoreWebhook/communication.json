@@ -1,0 +1,13 @@
+{
+  "type": "web",
+  "response": {
+    "output": "{{body}}"
+  },
+  "verification": {
+    "condition": "{{hmac('sha256', body, parameters.webhookSecret) == headers['x-payzcore-signature']}}",
+    "respond": {
+      "status": 401,
+      "body": "{\"error\": \"Invalid signature\"}"
+    }
+  }
+}

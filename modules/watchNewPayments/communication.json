@@ -1,0 +1,13 @@
+{
+  "url": "/payments",
+  "method": "GET",
+  "qs": {
+    "created_after": "{{formatDate(epoch, 'YYYY-MM-DDTHH:mm:ss.SSSZ')}}",
+    "status": "{{ifempty(parameters.status, '')}}",
+    "limit": "100"
+  },
+  "response": {
+    "output": "{{body.payments}}",
+    "iterate": "{{body.payments}}"
+  }
+}

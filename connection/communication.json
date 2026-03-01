@@ -1,0 +1,10 @@
+{
+  "url": "/payments",
+  "method": "GET",
+  "qs": {
+    "limit": "1"
+  },
+  "response": {
+    "valid": "{{body.success}}"
+  }
+}

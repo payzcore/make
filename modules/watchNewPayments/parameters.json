@@ -1,0 +1,17 @@
+[
+  {
+    "name": "status",
+    "type": "select",
+    "label": "Status Filter",
+    "required": false,
+    "options": [
+      { "label": "All", "value": "" },
+      { "label": "Paid", "value": "paid" },
+      { "label": "Overpaid", "value": "overpaid" },
+      { "label": "Partial", "value": "partial" },
+      { "label": "Expired", "value": "expired" },
+      { "label": "Pending", "value": "pending" }
+    ],
+    "help": "Optionally filter by payment status"
+  }
+]

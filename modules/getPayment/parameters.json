@@ -1,0 +1,9 @@
+[
+  {
+    "name": "paymentId",
+    "type": "text",
+    "label": "Payment ID",
+    "required": true,
+    "help": "UUID of the payment"
+  }
+]

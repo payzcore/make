@@ -1,0 +1,4 @@
+{
+  "type": "date",
+  "get": "{{item.created_at}}"
+}

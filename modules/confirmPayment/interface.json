@@ -1,0 +1,7 @@
+[
+  { "name": "success", "type": "boolean", "label": "Success" },
+  { "name": "status", "type": "text", "label": "Payment Status" },
+  { "name": "verified", "type": "boolean", "label": "Verified" },
+  { "name": "amount_received", "type": "text", "label": "Amount Received" },
+  { "name": "message", "type": "text", "label": "Message" }
+]

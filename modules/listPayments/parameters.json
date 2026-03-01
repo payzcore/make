@@ -1,0 +1,26 @@
+[
+  {
+    "name": "status",
+    "type": "select",
+    "label": "Status Filter",
+    "required": false,
+    "options": [
+      { "label": "All", "value": "" },
+      { "label": "Pending", "value": "pending" },
+      { "label": "Confirming", "value": "confirming" },
+      { "label": "Partial", "value": "partial" },
+      { "label": "Paid", "value": "paid" },
+      { "label": "Overpaid", "value": "overpaid" },
+      { "label": "Expired", "value": "expired" },
+      { "label": "Cancelled", "value": "cancelled" }
+    ]
+  },
+  {
+    "name": "limit",
+    "type": "integer",
+    "label": "Limit",
+    "required": false,
+    "default": 50,
+    "help": "Max results (1-100)"
+  }
+]

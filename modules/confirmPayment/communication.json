@@ -1,0 +1,10 @@
+{
+  "url": "/payments/{{parameters.payment_id}}/confirm",
+  "method": "POST",
+  "body": {
+    "tx_hash": "{{parameters.tx_hash}}"
+  },
+  "response": {
+    "output": "{{body}}"
+  }
+}
